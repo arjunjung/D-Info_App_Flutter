@@ -82,7 +82,7 @@ class Welcome extends StatelessWidget {
           "" + title,
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
         ),
-        subtitle: Text("" + subtitle, style: TextStyle(fontSize: 10, fontWeight: FontWeight.w300)),
+        subtitle: Text("" + subtitle, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w300)),
         onLongPress: () {
           return AlertDialog(
             content: Text(title),
@@ -104,7 +104,7 @@ class Welcome extends StatelessWidget {
             return Card(
                 child: ListTile(
                 leading: leading,
-                title: Text("" + data[index], style: TextStyle(fontSize: 10, fontWeight: FontWeight.w300)),
+                title: Text("" + data[index], style: TextStyle(fontSize: 11, fontWeight: FontWeight.w300)),
               ),
             );
           }),
